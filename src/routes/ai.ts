@@ -17,7 +17,7 @@ const grok_key=process.env.GROK
 
 // Initialize Groq client
 const groq = new Groq({
-  apiKey: grok_key // Ensure you have GROQ_API_KEY in your .env file
+  apiKey: grok_key 
 });
 
 
